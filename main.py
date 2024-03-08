@@ -9,7 +9,7 @@ rules = Rules(None)
 perceptions = Perception(None)
 states = States(None)
 machineController = MachineController(machine, rules, perceptions, states)
-in_ = "n"
+in_ = "e"
 
 while(True):
     machineController.init()
